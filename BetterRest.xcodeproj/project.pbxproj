@@ -13,6 +13,7 @@
 		4B06730025B91C7A00C98C4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B0672FE25B91C7A00C98C4E /* Main.storyboard */; };
 		4B06730225B91C7B00C98C4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B06730125B91C7B00C98C4E /* Assets.xcassets */; };
 		4B06730525B91C7B00C98C4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B06730325B91C7B00C98C4E /* LaunchScreen.storyboard */; };
+		4B977D7825BA3E410080C3C5 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4B977D7725BA3E410080C3C5 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		4B06730125B91C7B00C98C4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B06730425B91C7B00C98C4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B06730625B91C7B00C98C4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B977D7725BA3E410080C3C5 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				4B0672F825B91C7A00C98C4E /* AppDelegate.swift */,
 				4B0672FA25B91C7A00C98C4E /* SceneDelegate.swift */,
 				4B0672FC25B91C7A00C98C4E /* ViewController.swift */,
+				4B977D7725BA3E410080C3C5 /* SleepCalculator.mlmodel */,
 				4B0672FE25B91C7A00C98C4E /* Main.storyboard */,
 				4B06730125B91C7B00C98C4E /* Assets.xcassets */,
 				4B06730325B91C7B00C98C4E /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				4B0672FD25B91C7A00C98C4E /* ViewController.swift in Sources */,
 				4B0672F925B91C7A00C98C4E /* AppDelegate.swift in Sources */,
+				4B977D7825BA3E410080C3C5 /* SleepCalculator.mlmodel in Sources */,
 				4B0672FB25B91C7A00C98C4E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN8JLA8398;
 				INFOPLIST_FILE = BetterRest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +313,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZN8JLA8398;
 				INFOPLIST_FILE = BetterRest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
